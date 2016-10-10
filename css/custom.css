@@ -6,6 +6,7 @@ html,body
     padding: 0px;
     overflow-x: hidden;
     background-color: #444;
+    color: white;
 }
 
 * {
@@ -67,11 +68,25 @@ nav {
 
 /* NEW TRY */
 .content p {
-  text-align: left
+  text-align: left;
+  color: white;
 }
 .content h3 {
   text-align: left;
+  color: dodgerblue;
+  padding-top: 50px;
 }
 .wrap  {
-  width: 70%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 75px;
+
+}
+
+.second {
+  margin-bottom: 75px;
+  margin-top: 30px;
 }
