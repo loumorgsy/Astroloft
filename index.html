@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 
+
       <!-- MAIN STYLESHEET -->
         <link rel="stylesheet" href="css/custom.css">
         <!-- LATO - GOOGLE FONTS -->
@@ -25,32 +26,60 @@
         <![endif]-->
         <!-- ================ BEGGINING ==============-->
 
-      <header>
+      <header id="banner" class="container-fluid">
+
+
         <!-- NAVBAR -->
-        <nav class="nav navbar">
-          <div>
+        <div class="row">
+          <div class="logo col-md-3 col-xs-1">
             <img src="img/logo.svg" width="100px" height="100px" />
           </div>
-          <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+
+        <nav class="col-md-offset-7">
+
+          <a href="#">ABOUT</a>
+          <a href="#">WORK</a>
+          <a href="#">CONTACT</a>
         </nav>
 
-        <img src="img/header-image.jpg" />
 
-        <!-- INSERT ARROW DOWN ICON HERE WHEN READY -->
+
+      </div>
+      <div class="tagline">
+
+
+      <h1 class="launch">LAUNCH.<br />IT'S NEVER BEEN SO EASY.</h1>
+
+      </div>
       </header>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="..." alt="...">
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <!-- HOW WE CAN HELP SECTION -->
 
       <div class="container-fluid">
+        <div class="row">
+
+
         <div class="section-title">
           <h3>HOW WE CAN HELP</h3>
 
         </div>
 
         <div class="service-item">
+          <img src="" alt="" />
           <h4>IDEA FORMATION</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellendus! Corrupti eveniet quidem, laudantium aspernatur, eos maiores, possimus ratione blanditiis sapiente rem ipsa reprehenderit dolores obcaecati totam nobis! Nam, amet!
@@ -91,6 +120,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellendus! Corrupti eveniet quidem, laudantium aspernatur, eos maiores, possimus ratione blanditiis sapiente rem ipsa reprehenderit dolores obcaecati totam nobis! Nam, amet!
           </p>
         </div> <!-- end of service item -->
+        </div>
 
       </div> <!-- END OF 'HOW WE CAN HELP' SECTION DIV CONTAINER -->
 
@@ -224,29 +254,6 @@
 
       <!-- WORK SECTION -->
 
-      <ul>
-   <!-- For filtering controls add -->
-   <li data-filter="branding"> All items </li>
-   <li data-filter="website"> Category 1 </li>
-   <li data-filter="app"> Category 2 </li>
-   <li data-filter="case"> Category 3 </li>
-  
-</ul>
-
-      <div class="filtr-container">
-    <div class="filtr-item" data-category="branding">
-       <img src="img/1.jpeg" alt="sample">
-    </div>
-    <div class="filtr-item" data-category="website">
-       <img src="img/2.jpeg" alt="sample">
-    </div>
-    <div class="filtr-item" data-category="app">
-       <img src="img/3.jpeg" alt="sample">
-    </div>
-    <div class="filtr-item" data-category="case">
-       <img src="img/4.jpeg" alt="sample">
-    </div>
-</div>
 
 
 
@@ -291,6 +298,7 @@
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/shufflejs/dist/shuffle.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

@@ -1,5 +1,57 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 * {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+#banner   {
+  height: 100vh;
+
+  background-image: url('/img/header-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+
+nav a {
+  color: white;
+  padding-left: 70px;
+
+
+
+}
+
+nav {
+  margin-top: 2.3em;
+}
+
+
+
+.tagline {
+
+  display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 70vh;
+    color: white;
+
+}
+.tagline h1 {
+  font-size: 4em;
 }
