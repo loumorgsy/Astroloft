@@ -5,6 +5,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    background-color: #444;
 }
 
 * {
@@ -54,4 +55,23 @@ nav {
 }
 .tagline h1 {
   font-size: 4em;
+}
+
+.section-title {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+
+
+/* NEW TRY */
+.content p {
+  text-align: left
+}
+.content h3 {
+  text-align: left;
+}
+.wrap  {
+  width: 70%;
 }
